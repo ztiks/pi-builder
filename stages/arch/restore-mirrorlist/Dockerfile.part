@@ -1,3 +1,0 @@
-RUN mv /tmp/pacman.mirrorlist.saved /etc/pacman.d/mirrorlist \
-	&& (mv /etc/pacman.d/mirrorlist.pacnew /etc/pacman.d/mirrorlist || true) \
-	&& pacman -Syy

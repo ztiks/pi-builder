@@ -1,5 +1,0 @@
-ARG REBUILD
-ENV REBUILD=$REBUILD
-RUN echo $REBUILD
-RUN rm -f /etc/ssh/ssh_host_*_key* \
-	&& ssh-keygen -A
